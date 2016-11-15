@@ -13,3 +13,4 @@ new = string.split(sep = ",")
 
 for i in new:
     print(i)
+ 

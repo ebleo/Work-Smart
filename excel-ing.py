@@ -8,7 +8,7 @@ Created on Mon Nov 14 14:35:53 2016
 import os
 import xlrd as xl
 
-os.getcwd()
+print(os.getcwd())
 os.chdir("C:/Users/danielle.leong/Desktop/TEST")
 
 wb = xl.open_workbook("File1.xlsx")
