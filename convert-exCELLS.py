@@ -7,26 +7,31 @@ Created on Wed Nov 16 14:55:10 2016
 
 cN = 0
 c = 0
-r = []
+r = ''
 y = []
 rTest = ''
 prev = 0
+plus = 0
+add_cols = 0
 
 x = input("cell name/ind \t")
 xlen = len(x)
 for i in range(xlen):
     if ord('A') <= ord(x[i]) <= ord('Z'):
         cVal = ord(x[i]) - ord('A')
-        if cN == 1:
-            cN = 0
-            c = c + 26 + (cVal - prev) + 1
+        cNext = ord('A') <= ord(x[i + 1]) <= ord('Z')
+        print(cNext)
+        if cNext:
+            print('entered')
+            print(x[i])
+            add_cols = (cVal + 1) * 26
+            print(add_cols)
+            c = c + add_cols
+            print("l1\t",c)
         else:
-            c += cVal
-            cN += 1
-            prev = cVal
-
+            c = c + cVal + 1
+            print("l2\t",c)
     else:
-        r.append(int(x[i]))
-        rTest = (rTest + x[i])
+        r = (r + x[i])
 
-rTest = int(rTest)
+r = int(r)
