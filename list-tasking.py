@@ -10,6 +10,8 @@ https://www.analyticsvidhya.com/blog/2016/01/complete-tutorial-learn-data-scienc
 
 https://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/learning-path-data-science-python/
 
+http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/loopsandtuples.html
+
 """
 url = []
 
