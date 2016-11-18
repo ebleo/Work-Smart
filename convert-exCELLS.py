@@ -23,7 +23,7 @@ def xl_ind(x):
         else:
             r = (r + x[i])
 
-    r = int(r)
+    r = int(r) - 1
     index.append(r)
     index.append(c)
     return index
