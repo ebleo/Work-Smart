@@ -19,7 +19,7 @@ def xl_ind(x):
                 add_cols = (cVal + 1) * 26
                 c = c + add_cols
             else:
-                c = c + cVal + 1
+                c = c + cVal
         else:
             r = (r + x[i])
 
