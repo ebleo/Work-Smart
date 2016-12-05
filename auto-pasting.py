@@ -5,10 +5,10 @@ Created on Tue Nov 15 15:03:16 2016
 @author: danielle.leong
 """
 
-    import os
-    import xlrd as xl
-    import xlwt as xlw
-    import utils
+import os
+import xlrd as xl
+import xlwt as xlw
+import xlutils
 
 # https://www.sitepoint.com/using-python-parse-spreadsheet-data/
 okay = True
@@ -63,4 +63,3 @@ while okay == True:
             col = j + cStart1
             val = sheet1.cell(row, col).value
             newSheet.write(row, col, val)
-            

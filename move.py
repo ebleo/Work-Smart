@@ -38,13 +38,13 @@ for name in fileNames:
     counter = counter + 1
 
 import os
-os.chdir("C:/Users/danielle.leong/Desktop/Kantar Pull--testing")
+os.chdir("C:/Users/danielle.leong/Desktop/kan")
 
 # splitting and renaming
 # http://stackoverflow.com/questions/5749195/how-can-i-split-and-parse-a-string-in-python
 
 # obtain file names
-ori = os.listdir("C:/Users/danielle.leong/Desktop/Kantar Pull--testing")
+ori = os.listdir("C:/Users/danielle.leong/Desktop/kan")
 
 counter = 0
 for f in ori:
