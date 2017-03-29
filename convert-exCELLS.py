@@ -19,11 +19,11 @@ def xl_ind(x):
                 add_cols = (cVal + 1) * 26
                 c = c + add_cols
             else:
-                c = c + cVal + 1
+                c = c + cVal
         else:
             r = (r + x[i])
 
-    r = int(r)
+    r = int(r) - 1
     index.append(r)
     index.append(c)
     return index
